@@ -17,6 +17,7 @@
   padding: 70px;
   @extend %centrar;
   align-items: center;
+  background-color: #abd0c4;
 }
 
 .ubi {
@@ -33,4 +34,8 @@
 .iframe-responsivo {
   width: 100%;
   height: 400px;
+}
+
+.nosotross {
+  padding: 60px;
 }
