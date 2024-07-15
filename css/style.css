@@ -64,16 +64,19 @@ footer {
   background-color: #1c6135;
   display: flex;
   justify-content: space-between;
-  padding: 50px;
+  padding: 30px;
 }
 footer img {
-  width: 150px;
+  width: 100px;
   display: flex;
   align-items: center;
 }
 footer .derecha {
   padding-right: 50px;
   padding-top: 10px;
+}
+footer .derecha h3 {
+  padding-bottom: 15px;
 }
 footer .derecha a {
   text-decoration: none;

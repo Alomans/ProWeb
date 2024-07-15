@@ -5,15 +5,18 @@ footer {
   background-color: $color-uno;
   display: flex;
   justify-content: space-between;
-  padding: 50px;
+  padding: 30px;
   img {
-    width: 150px;
+    width: 100px;
     display: flex;
     align-items: center;
   }
   .derecha {
     padding-right: 50px;
     padding-top: 10px;
+    h3 {
+      padding-bottom: 15px;
+    }
     a {
       @extend %centrar;
       text-decoration: none;
