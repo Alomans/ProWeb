@@ -1,0 +1,16 @@
+@import "../base/variables";
+
+header {
+  .nav1 {
+    background-color: #f8f9fa;
+    h6 {
+      opacity: 0%;
+    }
+  }
+  .nav2 {
+    background-color: $color-uno;
+    .a1 {
+      color: #f8f9fa;
+    }
+  }
+}
