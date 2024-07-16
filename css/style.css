@@ -54,6 +54,68 @@ header .nav2 .a1 {
   width: 350px;
 }
 
+form {
+  position: absolute;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  border-radius: 20px;
+  text-align: center;
+}
+form h2 {
+  text-align: center;
+  padding: 20px;
+  border-bottom: 1px solid black;
+  color: #1c6135;
+}
+form .imput-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 20px;
+}
+form label {
+  color: #1c6135;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+form input,
+form textarea {
+  padding: 17px 25px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  background-color: #abd0c4;
+  border: 2px solid rgb(190, 181, 181);
+  color: black;
+  outline: none;
+}
+form input::placeholder,
+form textarea::placeholder {
+  color: #f0faf1;
+}
+form .form-txt {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+form .form-txt a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+}
+form btn {
+  font-size: 16px;
+  color: black;
+  border: 0;
+  border-radius: 25px;
+  background-color: #fac43d;
+}
+
 /*Colores*/
 .separador, footer .derecha a {
   display: flex;
